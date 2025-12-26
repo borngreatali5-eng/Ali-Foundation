@@ -1,0 +1,205 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ali Foundation | Web Development & Tech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background: #f7f9fc;
+      color: #222;
+    }
+
+    /* NAVBAR */
+    header {
+      background: linear-gradient(90deg, #9c27b0, #1a237e);
+      padding: 20px 60px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    nav ul li a:hover {
+      opacity: 1;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, #9c27b0, #1a237e);
+      color: white;
+      padding: 80px 60px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-content {
+      max-width: 550px;
+    }
+
+    .hero h4 {
+      color: #ffd54f;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      opacity: 0.9;
+      margin-bottom: 30px;
+    }
+
+    .hero button {
+      background: #7e57c2;
+      border: none;
+      padding: 14px 30px;
+      border-radius: 30px;
+      color: #fff;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background: #673ab7;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 70px 60px;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #1a237e;
+    }
+
+    .about p {
+      max-width: 800px;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    /* CONTACT */
+    .contact {
+      background: #1a237e;
+      color: white;
+    }
+
+    .contact p {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    footer {
+      background: #0d1333;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    @media(max-width: 768px) {
+      header, .hero, section {
+        padding: 40px 20px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      nav ul {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <h1>Ali Foundation</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h4>Ali Gabriel Borngreat</h4>
+    <h1>WEB<br>DESIGN</h1>
+    <p>
+      Learning web development and modern technology step by step,
+      building clean, responsive, and meaningful digital experiences.
+    </p>
+    <button>Get Started</button>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    My name is Ali Gabriel Borngreat. I am a passionate learner with a deep
+    interest in technology, problem-solving, and continuous self-improvement.
+    I am currently focused on learning web development, starting from strong
+    fundamentals and gradually advancing into modern tools and best practices.
+    <br><br>
+    I believe growth comes from consistency, discipline, and learning by doing.
+    This platform represents my journey — every skill I acquire, every project
+    I build, and every step I take toward becoming a professional in the tech
+    space.
+  </p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Email: borngreatali5@gmail.com</p>
+  <p>Phone: 07043514597</p>
+</section>
+
+<footer>
+  © 2025 Ali Foundation. All rights reserved.
+</footer>
+
+</body>
+</html>
